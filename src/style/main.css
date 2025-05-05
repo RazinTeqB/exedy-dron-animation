@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+.page-spacer {
+    @apply w-full border border-amber-300 border-dashed h-screen relative overflow-hidden flex flex-wrap gap-5;
+}
+.box {
+    @apply size-5 bg-red-300 animate-pulse transform translate-y-[-30px];
+}
+
+.drone-target {
+    @apply w-full h-screen my-4;
+}
+
+.page-spacer.before::before {
+    content: "Scroll Down";
+}
+.page-spacer.after::before {
+    content: "Scroll Up";
+}
+.page-spacer::before {
+    @apply absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl font-bold text-black;
+}
