@@ -2,4 +2,4 @@
 
 
 ### Demo
-![Demo](EXEDY-Dron-Animation-P.O.C.mp4)
+https://github.com/user-attachments/assets/7eb5d6f2-76a1-49e9-887a-e43f85874441
